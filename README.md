@@ -1,1 +1,1 @@
-# noideia
+# noidea
