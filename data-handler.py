@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-csv_enem = "Cotas_Bel.csv"
-csv_academico = "Dados_Cotas.csv"
+csv_enem = "data/Cotas_Bel.csv"
+csv_academico = "data/Dados_Cotas.csv"
 
 import pandas as pd
 
