@@ -1,6 +1,16 @@
 # noidea
 
 
+### explicação dos arquivos
+
+- data-handler.py: script que trata os dados e gera o arquivo final
+- data-explorer.py: script para obter informaçoes sobre os dados
+- requirements.txt: bibliotecas necessarias para rodas os scripts
+- data/
+    - Cotas_Bel.csv: arquivo passado por Bel
+    - Dados_Cotas.csv: arquivo com informaçoes das matriculos dos componentes curriculares
+    - final-data.csv: arquivo final gerado pelo data-handler.py
+
 ### mudanças feitas nos dados
 
 - separação das colunas de ; para ,
