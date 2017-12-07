@@ -1,5 +1,29 @@
-# noidea
+# Easydata.edu
 
+
+### requirements
+
+javabridge==1.0.15
+matplotlib==2.1.0
+numpy==1.13.3
+pandas==0.20.3
+pyparsing==2.2.0
+python-dateutil==2.6.1
+request==0.0.18
+six==1.11.0
+subprocess32==3.2.7
+
+### rode o projeto
+
+1. Crie uma virutalenv
+2. Instale os pacotes
+3. Rode os script 
+
+### weka
+
+	$ git clone https://github.com/fracpete/python-weka-wrapper3
+	$ cd python-weka-wrapper3
+	$ python setup.py install
 
 ### explicação dos arquivos
 
@@ -7,9 +31,20 @@
 - data-explorer.py: script para obter informaçoes sobre os dados
 - requirements.txt: bibliotecas necessarias para rodas os scripts
 - data/
-    - Cotas_Bel.csv: arquivo passado por Bel
-    - Dados_Cotas.csv: arquivo com informaçoes das matriculos dos componentes curriculares
+    - Dados_Enem.csv: arquivo passado pela professora Elizabel com informações sobre o Enem
+    - Dados_Cotas.csv: arquivo com informaçoes das matriculos dos componentes curriculares 2017.1
+    - Dados_Cep.csv: arquivo com informações sobre o cep
     - final-data.csv: arquivo final gerado pelo data-handler.py
+- graph/
+	- boxplot_media_final.png
+	- boxplot_nota_enem.png
+	- boxplot_numero_total_faltas.png
+	- media_final.png
+	- nota_enem.png
+	- numero_total_faltas.png
+	- situacao.png
+- weka/
+	- apriori.txt 	
 
 ### mudanças feitas nos dados
 

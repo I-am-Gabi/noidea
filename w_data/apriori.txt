@@ -1,0 +1,42 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     final-data-weka.filters.unsupervised.attribute.Remove-R1,4,8-11-weka.filters.unsupervised.attribute.Remove-R4
+Instances:    101414
+Attributes:   5
+              id_discente
+              sexo
+              cotista
+              descrição
+              situacao
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.2 (20283 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 16
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 6
+
+Size of set of large itemsets L(2): 13
+
+Size of set of large itemsets L(3): 8
+
+Best rules found:
+
+ 1. sexo=M 55889 ==> descrição=GRADUAÇÃO 55889    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 2. cotista=t 52053 ==> descrição=GRADUAÇÃO 52053    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 3. cotista=f 49361 ==> descrição=GRADUAÇÃO 49361    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 4. situacao=APROVADO 46854 ==> descrição=GRADUAÇÃO 46854    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 5. sexo=F 45514 ==> descrição=GRADUAÇÃO 45514    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 6. sexo=M cotista=t 28858 ==> descrição=GRADUAÇÃO 28858    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 7. sexo=M cotista=f 27031 ==> descrição=GRADUAÇÃO 27031    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 8. sexo=F situacao=APROVADO 25080 ==> descrição=GRADUAÇÃO 25080    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+ 9. cotista=t situacao=APROVADO 24260 ==> descrição=GRADUAÇÃO 24260    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+10. sexo=F cotista=t 23195 ==> descrição=GRADUAÇÃO 23195    <conf:(1)> lift:(1) lev:(0) [0] conv:(0)
+
