@@ -15,16 +15,22 @@
 
 ### rode o projeto
 
-1. Prepare o ambiente virtual
+#### Prepare o ambiente virtual
 	
 	$ pyvenv venv
 	$ source venv/bin/activate
 
-2. Instale os pacotes
+#### Instale os pacotes
 	
 	$ pip install -r requirements.txt
 
-3. Rode os script 
+#### Rode os script 
+
+	$ python data_handler.py
+	$ python data_explorer.py
+	$ python boxplot.py
+	$ python weka.py
+
 
 ### weka
 
