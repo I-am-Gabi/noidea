@@ -3,20 +3,27 @@
 
 ### requirements
 
-javabridge==1.0.15
-matplotlib==2.1.0
-numpy==1.13.3
-pandas==0.20.3
-pyparsing==2.2.0
-python-dateutil==2.6.1
-request==0.0.18
-six==1.11.0
-subprocess32==3.2.7
+	javabridge==1.0.15
+	matplotlib==2.1.0
+	numpy==1.13.3
+	pandas==0.20.3
+	pyparsing==2.2.0
+	python-dateutil==2.6.1
+	request==0.0.18
+	six==1.11.0
+	subprocess32==3.2.7
 
 ### rode o projeto
 
-1. Crie uma virutalenv
+1. Prepare o ambiente virtual
+	
+	$ pyvenv venv
+	$ source venv/bin/activate
+
 2. Instale os pacotes
+	
+	$ pip install -r requirements.txt
+
 3. Rode os script 
 
 ### weka
